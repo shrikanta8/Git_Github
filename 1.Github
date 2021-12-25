@@ -1,0 +1,6 @@
+1. URL will get attached to local project
+    git remote add origin [url of github repository] 
+    
+2. will show url's attached to current folder
+    git remote -v
+  
