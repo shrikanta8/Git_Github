@@ -12,9 +12,20 @@
 4. From where we have forked the project, it is said as UPSTREAM URL by convention
     -git remote add upstream [URL of project]
     
-5. Create new BRANCH
+5. Any repository that starts with our own account name is said as ORIGIN
+    
+6. Create new BRANCH
     -git branch [branch_name]
 
-6. git checkout [branch_name]
-    -HEAD will now point to this branch
+7. git checkout [branch_name]
+    -HEAD will now point to this branch [branch_name]
+    
+8. Go back to particular history[version] of project
+    -git reset [40 character checksum]
+  
+9. move to stash area
+    -git stash
+    
+10. if online repository contains commits which our repository doesn't then force push
+    -git push origin [branch_name] -f
   
