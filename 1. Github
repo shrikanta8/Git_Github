@@ -29,3 +29,15 @@
 10. if online repository contains commits which our repository doesn't then force push
     -git push origin [branch_name] -f
   
+11. make your repo same as of Original repo
+    1st way
+        - git pull upstream main
+        - git push origin main
+        
+    2nd way 
+        - git checkout main
+        - git fetch --all --prune
+        [prune means --the one which are deleted will also be fetched]
+        - git reset --hard upstream/main
+        - git push origin main
+12.
