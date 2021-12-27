@@ -26,7 +26,7 @@
 9. move to stash area
     -git stash
     
-10. if online repository contains commits which our repository doesn't then force push
+10. if online repository contains COMMITS which our repository doesn't then force push
     -git push origin [branch_name] -f
   
 11. make your repo same as of Original repo
