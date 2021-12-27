@@ -16,6 +16,7 @@
     
 6. Create new BRANCH
     -git branch [branch_name]
+    NOTE: before making a new branch make sure that main branch is up to date
 
 7. git checkout [branch_name]
     -HEAD will now point to this branch [branch_name]
