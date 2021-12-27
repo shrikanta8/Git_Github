@@ -1,0 +1,17 @@
+merge all the commits to one commit
+
+1. git branch [new branch name]
+    -create a branch
+    
+2. git checkout [new branch name]
+
+3. git rebase -i [40 character checksum]
+    -i is interactive environment
+    
+4. Rename pick to s, s will merge it to previous commits
+
+5. To exit from there =>click escape then write :x
+
+6. Then write a message
+
+7. to exit => click escape then write :x
